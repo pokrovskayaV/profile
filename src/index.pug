@@ -1,0 +1,16 @@
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Profile
+    link(rel="stylesheet" href="css/style.css" type="text/css")
+    link(rel="stylesheet" media="(max-width: 900px)" href="css/style.css")
+    link(rel="stylesheet" media="(max-width: 768px)" href="css/style.css")
+    link(rel="stylesheet" media="(max-width: 424px)" href="css/style.css")
+    link(rel="stylesheet" media="(min-width: 424px)" href="css/style.css")
+    link(rel="icon" href="img/usericon.png")
+  body(vocab="http://schema.org/" typeof="Person")
+    include blocks/header.pug
+    include blocks/main.pug  
+    include blocks/footer.pug  
+    script(src="../js/script.js")
